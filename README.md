@@ -10,7 +10,7 @@ An American Sign Language's data set is used to train the model, several optimiz
 - 1 (Fully-connected + ReLu) layer
 - 1 (Fully-connected + Softmax) layer
 
-<img width="952" alt="image" src="https://github.com/Sukikui/ESP32-CAM-Sign-Recognition/assets/97752902/15be1e94-d58c-4327-8a5c-3acef009bcb2">
+<img width="400" alt="image" src="https://github.com/Sukikui/ESP32-CAM-Sign-Recognition/assets/97752902/15be1e94-d58c-4327-8a5c-3acef009bcb2">
 
 ## Results
 - ~100% with test data (but biased)

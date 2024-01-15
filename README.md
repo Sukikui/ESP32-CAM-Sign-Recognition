@@ -13,7 +13,7 @@ An American Sign Language's data set is used to train the model, several optimiz
 <img width="400" alt="image" src="https://github.com/Sukikui/ESP32-CAM-Sign-Recognition/assets/97752902/15be1e94-d58c-4327-8a5c-3acef009bcb2">
 
 ## How to create binary model's file with TFLite
-At the end of training in the notebook, `ASL_256_lite.tflite` is created by TensorFlowLite. To create binary model's file to implement in ESP32 source code, entry this command in folder's terminal :
+At the end of training in the notebook, `ASL_256_lite.tflite` is created by TensorFlowLite. To create binary model's `model_data.cc` file to implement in ESP32 source code, entry this command in folder's terminal :
 ```
 xxd -i ASL_256_lite.tflite > model_data.cc
 ```

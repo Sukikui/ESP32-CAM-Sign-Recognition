@@ -23,7 +23,7 @@ xxd -i ASL_256_lite.tflite > model_data.cc
 
 ## Results
 - ~100% with test data (but biased)
-- ~70% with C-O-L-Y labels
+- ~70% with C-O-L-Y labels in practise
 
 
 ## Documentations

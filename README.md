@@ -2,7 +2,7 @@
 
 ## Overview
 The aim of this university project is to implement a CNN (convolutional neural network) for gesture recognition on ESP32-CAM. Keras is used for model's training and TensorFlowLite allows to implement the model on a microcontroler such as ESP32. 
-An American Sign Language's data set is used to train the model, several optimizations were made to improve the precision in practice (merging labels, artificial increase of the data set).
+An American Sign Language's data set is used to train the model, several optimizations were made to improve the precision in practice (merging labels, artificial augmentation of the data set).
 
 ## CNN architecture
 - 3 (Convolution + ReLu + Max-pooling) layers

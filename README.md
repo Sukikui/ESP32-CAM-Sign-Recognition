@@ -6,11 +6,11 @@ An American Sign Language's data set is used to train the model, several optimiz
 
 
 ## CNN architecture
-### Tensors :
+### Tensors
 - Input : 28*28 = 784 pixels
 - Output : 24 labels (but merged to 4 after due to optimization)
 
-### Hidden layers :
+### Hidden layers
 - 3 (Convolution + ReLu + Max-pooling) layers
 - 1 Flatten layer
 - 1 (Fully-connected + ReLu) layer

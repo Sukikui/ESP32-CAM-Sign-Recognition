@@ -28,7 +28,7 @@ xxd -i ASL_256_lite.tflite > model_data.cc
 
 ## Results with C-O-L-Y labels
 - ~100% with test data (ASL data set) but biased
-- ~70% with real capture (ESP32-CAM) in pratice
+- ~70% with real capture (ESP32-CAM)
 
 
 ## Documentations

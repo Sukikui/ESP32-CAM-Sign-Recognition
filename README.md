@@ -32,7 +32,7 @@ xxd -i ASL_256_lite.tflite > model_data.cc
 
 
 ## Documentations
-- Board used : [AI Thinker ESP32-CAM](https://docs.platformio.org/en/latest/boards/espressif32/esp32cam.html#ai-thinker-esp32-cam)
+- Board : [AI Thinker ESP32-CAM](https://docs.platformio.org/en/latest/boards/espressif32/esp32cam.html#ai-thinker-esp32-cam)
 - Data Set : [MNIST ASL](https://www.kaggle.com/datasets/datamunge/sign-language-mnist) 
 - CNN modeling and training : [Keras](https://keras.io/api/)
 - CNN microcontroler's post-training implementation : [TensorFlowLite](https://www.tensorflow.org/lite/api_docs?hl=fr)

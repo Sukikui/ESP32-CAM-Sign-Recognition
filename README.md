@@ -20,13 +20,13 @@ An American Sign Language's data set is used to train the model, several optimiz
 
 
 ## How to create binary model's file with TFLite
-At the end of training in the notebook, `ASL_256_lite.tflite` is created by TensorFlowLite. To create binary model's `model_data.cc` file to implement on ESP32 (`p_det_model.cpp` in source code), entry this command in folder's terminal :
+At the end of training in the notebook, `ASL_256_lite.tflite` is created by TensorFlowLite. To create binary model's file `model_data.cc` to implement on ESP32 (`p_det_model.cpp` in source code), entry this command in the folder terminal :
 ```
 xxd -i ASL_256_lite.tflite > model_data.cc
 ```
 
 
-## Results with C-O-L-Y labels
+## Results with C-H-L-Y labels
 - ~100% with test data (ASL data set) but biased
 - ~70% with real capture (ESP32-CAM)
 

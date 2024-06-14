@@ -7,14 +7,14 @@ An American Sign Language's data set is used to train the model, several optimiz
 
 ## CNN architecture
 ### Tensors
-- Input : 28*28 = 784 pixels
-- Output : 24 labels (but merged to 4 due to optimization)
+- `Input` : 28*28 = 784 pixels
+- `Output` : 24 labels (but merged to 4 due to optimization)
 
 ### Hidden layers
-- 3 (Convolution + ReLu + Max-pooling) layers
-- 1 Flatten layer
-- 1 (Fully-connected + ReLu) layer
-- 1 (Fully-connected + Softmax) layer
+- 3 (`Convolution` + `ReLu` + `Max-pooling`) layers
+- 1 `Flatten` layer
+- 1 (`Fully-connected` + `ReLu`) layer
+- 1 (`Fully-connected` + `Softmax`) layer
 
 <img width="650" alt="image" src="https://github.com/Sukikui/ESP32-CAM-Sign-Recognition/assets/97752902/15be1e94-d58c-4327-8a5c-3acef009bcb2">
 
@@ -32,9 +32,9 @@ xxd -i ASL_256_lite.tflite > model_data.cc
 
 
 ## Documentations
-- Board : [AI Thinker ESP32-CAM](https://docs.platformio.org/en/latest/boards/espressif32/esp32cam.html#ai-thinker-esp32-cam)
-- Data Set : [MNIST ASL](https://www.kaggle.com/datasets/datamunge/sign-language-mnist) 
-- CNN modeling and training : [Keras](https://keras.io/api/)
+- `Board` : [AI Thinker ESP32-CAM](https://docs.platformio.org/en/latest/boards/espressif32/esp32cam.html#ai-thinker-esp32-cam)
+- `Data Set` : [MNIST ASL](https://www.kaggle.com/datasets/datamunge/sign-language-mnist) 
+- `CNN modeling and training` : [Keras](https://keras.io/api/)
 - CNN microcontroler's post-training implementation : [TensorFlowLite](https://www.tensorflow.org/lite/api_docs?hl=fr)
 
 ## Special thanks

@@ -11,10 +11,10 @@ An American Sign Language's data set is used to train the model, several optimiz
 - `Output` : 24 labels (but merged to 4 due to optimization)
 
 ### Hidden layers
-- 3 (`Convolution` + `ReLu` + `Max-pooling`) layers
+- 3 `Convolution + ReLu + Max-pooling` layers
 - 1 `Flatten` layer
-- 1 (`Fully-connected` + `ReLu`) layer
-- 1 (`Fully-connected` + `Softmax`) layer
+- 1 `Fully-connected + ReLu` layer
+- 1 `Fully-connected + Softmax` layer
 
 <img width="650" alt="image" src="https://github.com/Sukikui/ESP32-CAM-Sign-Recognition/assets/97752902/15be1e94-d58c-4327-8a5c-3acef009bcb2">
 
